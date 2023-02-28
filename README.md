@@ -12,7 +12,7 @@ To use Sway, the Rust toolchain must be installed. This can be done withj [rustu
 
 ### Initialize project
 
-``` forc init money-box ```
+``` forc new money-box ```
 
 ### Functions
 
