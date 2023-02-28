@@ -1,0 +1,19 @@
+[package]
+name = "money_box"
+description = "A simple Smart Contract in Sway."
+version = "0.1.0"
+edition = "2021"
+authors = ["Elena"]
+license = "Apache-2.0"
+
+[dev-dependencies]
+fuels = { version = "0.35", features = ["fuel-core-lib"] }
+tokio = { version = "1.12", features = ["rt", "macros"] }
+
+[[test]]
+harness = true
+name = "integration_tests"
+path = "tests/harness.rs"
+
+[dependencies]
+rand = "0.8.5"
