@@ -6,7 +6,7 @@ From [this post](https://forum.fuel.network/t/how-to-write-a-smart-contract-on-s
 
 The easiest way to have everything simulateously up to date + easy switching between versions is with [fuelup](https://fuellabs.github.io/fuelup/master/). 
 
-To use Sway, the Rust toolchain must be installed. This can be done withj [rustup](https://rustup.rs/). 
+To use Sway, the Rust toolchain must be installed. This can be done with [rustup](https://rustup.rs/). 
 
 ## Write Smart Contract
 
